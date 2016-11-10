@@ -100,8 +100,6 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 - [Contributing](#contributing)
 - [Other Awesome Lists](#other-awesome-lists)
 
-- - -
-
 ## Admin Panels
 
 *Libraries for administrative interfaces.*
@@ -242,17 +240,6 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [pylama](https://github.com/klen/pylama) - Code audit tool for Python and JavaScript.
     * [Pylint](https://www.pylint.org/) - A Fully customizable source code analyzer.
 
-## Code Quality
-
-* [Codacy](https://www.codacy.com/) - Automated Code Review to ship better code, faster. Free for Open Source.
-* [Codecov](https://codecov.io/) - Code coverage dashboard.
-* [Landscape](https://landscape.io/) - Hosted continuous Python code metrics.
-* [QuantifiedCode](https://www.quantifiedcode.com/) - A data-driven, automated, continuous code review tool.
-
-# Resources
-
-Where to discover new Python libraries.
-
 ## Command-line Tools
 
 *Libraries for building command-line application.*
@@ -318,15 +305,6 @@ Where to discover new Python libraries.
 * [ConfigParser](https://docs.python.org/2/library/configparser.html) - (Python standard library) INI file parser.
 * [profig](http://profig.readthedocs.org/en/default/) - Config from multiple formats with value conversion.
 * [python-decouple](https://github.com/henriquebastos/python-decouple) - Strict separation of settings from code.
-
-## Continuous Integration
-
-*See: [awesome-CIandCD](https://github.com/ciandcd/awesome-ciandcd#online-build-system).*
-
-* [CircleCI](https://circleci.com/) - A CI service that can run very fast parallel testing. (GitHub only)
-* [Travis CI](https://travis-ci.org) - A popular CI service for your open source and [private](https://travis-ci.com) projects. (GitHub only)
-* [Vexor CI](https://vexor.io) - A continuous integration tool for private apps with pay-per-minute billing model.
-* [Wercker](http://wercker.com/) - A Docker-based platform for building and deploying applications and microservices.
 
 ## Cryptography
 
@@ -691,10 +669,6 @@ Where to discover new Python libraries.
 * [PyCharm](https://www.jetbrains.com/pycharm/) - Commercial Python IDE by JetBrains. Has free community edition available.
 * [Spyder](https://github.com/spyder-ide/spyder) - Open Source Python IDE.
 
-# Services
-
-Online tools and APIs to simplify development.
-
 ## Imagery
 
 *Libraries for manipulating images.*
@@ -891,29 +865,6 @@ Online tools and APIs to simplify development.
 * [django-guardian](https://github.com/django-guardian/django-guardian) - Implementation of per object permissions for Django 1.2+
 * [django-rules](https://github.com/dfunckt/django-rules) - A tiny but powerful app providing object-level permissions to Django, without requiring a database.
 
-## Podcasts
-
-* [Podcast.init](http://podcastinit.com/)
-* [Talk Python To Me](https://talkpython.fm/)
-
-# Other Awesome Lists
-
-List of lists.
-
-* Python
-    * [pycrumbs](https://github.com/kirang89/pycrumbs)
-    * [python-github-projects](https://github.com/checkcheckzz/python-github-projects)
-    * [python_reference](https://github.com/rasbt/python_reference)
-    * [pythonidae](https://github.com/svaksha/pythonidae)
-* Monty
-    * [awesome](https://github.com/sindresorhus/awesome)
-    * [lists](https://github.com/jnv/lists)
-
-# Contributing
-
-Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/vinta/awesome-python/blob/master/CONTRIBUTING.md) first.
-
-I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/vinta/awesome-python/pulls) by adding :+1: to them. Pull requests will be merged when their votes reach **20**.
 ## Processes
 
 *Libraries for starting and communicating with OS processes.*
@@ -1150,17 +1101,6 @@ I will keep some pull requests open if I'm not sure whether those libraries are 
 * [gspread](https://github.com/burnash/gspread) - Google Spreadsheets Python API.
 * [twython](https://github.com/ryanmcgrath/twython) - A Python wrapper for the Twitter API.
 
-## Twitter
-
-* [@codetengu](https://twitter.com/codetengu)
-* [@getpy](https://twitter.com/getpy)
-* [@importpython](https://twitter.com/importpython)
-* [@planetpython](https://twitter.com/planetpython)
-* [@pycoders](https://twitter.com/pycoders)
-* [@pypi](https://twitter.com/pypi)
-* [@pythontrending](https://twitter.com/pythontrending)
-* [@PythonWeekly](https://twitter.com/PythonWeekly)
-
 ## URL Manipulation
 
 *Libraries for parsing URLs.*
@@ -1247,6 +1187,32 @@ I will keep some pull requests open if I'm not sure whether those libraries are 
 * [django-socketio](https://github.com/stephenmcd/django-socketio) - WebSockets for Django.
 * [WebSocket-for-Python](https://github.com/Lawouach/WebSocket-for-Python) - WebSocket client and server library for Python 2 and 3 as well as PyPy.
 
+#
+
+#Services
+
+Online tools and APIs to simplify development.
+
+## Continuous Integration
+
+*See: [awesome-CIandCD](https://github.com/ciandcd/awesome-ciandcd#online-build-system).*
+
+* [CircleCI](https://circleci.com/) - A CI service that can run very fast parallel testing. (GitHub only)
+* [Travis CI](https://travis-ci.org) - A popular CI service for your open source and [private](https://travis-ci.com) projects. (GitHub only)
+* [Vexor CI](https://vexor.io) - A continuous integration tool for private apps with pay-per-minute billing model.
+* [Wercker](http://wercker.com/) - A Docker-based platform for building and deploying applications and microservices.
+
+## Code Quality
+
+* [Codacy](https://www.codacy.com/) - Automated Code Review to ship better code, faster. Free for Open Source.
+* [Codecov](https://codecov.io/) - Code coverage dashboard.
+* [Landscape](https://landscape.io/) - Hosted continuous Python code metrics.
+* [QuantifiedCode](https://www.quantifiedcode.com/) - A data-driven, automated, continuous code review tool.
+
+#Resources
+
+Where to discover new Python libraries.
+
 ## Websites
 
 * [/r/CoolGithubProjects](https://www.reddit.com/r/coolgithubprojects/)
@@ -1268,5 +1234,38 @@ I will keep some pull requests open if I'm not sure whether those libraries are 
 * [Pycoder's Weekly](http://pycoders.com/)
 * [Python Weekly](http://www.pythonweekly.com/)
 
-- - -
+## Twitter
+
+* [@codetengu](https://twitter.com/codetengu)
+* [@getpy](https://twitter.com/getpy)
+* [@importpython](https://twitter.com/importpython)
+* [@planetpython](https://twitter.com/planetpython)
+* [@pycoders](https://twitter.com/pycoders)
+* [@pypi](https://twitter.com/pypi)
+* [@pythontrending](https://twitter.com/pythontrending)
+* [@PythonWeekly](https://twitter.com/PythonWeekly)
+
+## Podcasts
+
+* [Podcast.init](http://podcastinit.com/)
+* [Talk Python To Me](https://talkpython.fm/)
+
+#Other Awesome Lists
+
+List of lists.
+
+* Python
+    * [pycrumbs](https://github.com/kirang89/pycrumbs)
+    * [python-github-projects](https://github.com/checkcheckzz/python-github-projects)
+    * [python_reference](https://github.com/rasbt/python_reference)
+    * [pythonidae](https://github.com/svaksha/pythonidae)
+* Monty
+    * [awesome](https://github.com/sindresorhus/awesome)
+    * [lists](https://github.com/jnv/lists)
+
+#Contributing
+
+Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/vinta/awesome-python/blob/master/CONTRIBUTING.md) first.
+
+I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/vinta/awesome-python/pulls) by adding :+1: to them. Pull requests will be merged when their votes reach **20**.
 
