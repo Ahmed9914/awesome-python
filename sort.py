@@ -30,7 +30,7 @@ def sort_alphabetically():
         
     inner_blocks=''.join(inner_blocks)
     blocks[0] = inner_blocks
-    final = titles + ''.join(blocks)
+    final = titles + '- - -\n'+ ''.join(blocks)
     
     with open('README.md', 'w+') as sorted_file:
         sorted_file.write(final)
