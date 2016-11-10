@@ -13,9 +13,31 @@
     and flattening the end structure into a list of lines. Revision 2 maybe ^.^.
 """
 
+def sort_alphabetically():
+    with open('README.md', 'r') as read_me_file:
+        read_me = read_me_file.readlines()
+    read_all = ''.join(read_me)
+    titles = ''.join(read_all.split('- - -')[0])
+    blocks = ''.join(read_all.split('- - -')[1]).split('\n# ')
+    
+    for i in range(len(blocks)):
+       blocks[i] = '#'+blocks[i]+'\n'
+         
+    inner_blocks = sorted(blocks[0].split('##'))
+    
+    for i in range(len(inner_blocks)):
+        inner_blocks[i]='##'+inner_blocks[i]
+        
+    inner_blocks=''.join(inner_blocks)
+    blocks[0] = inner_blocks
+    final = titles + '- - -\n'+ ''.join(blocks)
+    
+    with open('README.md', 'w+') as sorted_file:
+        sorted_file.write(final)
 
 def main():
     # First, we load the current README into memory as an array of lines
+    
     with open('README.md', 'r') as read_me_file:
         read_me = read_me_file.readlines()
 
@@ -45,6 +67,8 @@ def main():
         # And the result is written back to README.md
         sorted_file.write(''.join(blocks))
 
+    # Then we make the alphabetical sorting
+    sort_alphabetically()
 
 if __name__ == "__main__":
     main()
