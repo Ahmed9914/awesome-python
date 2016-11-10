@@ -1223,7 +1223,7 @@ Where to discover new Python libraries.
 * [Python 3 Wall of Superpowers](http://python3wos.appspot.com/)
 * [Python Hackers](http://pythonhackers.com/open-source/)
 * [Python ZEEF](https://python.zeef.com/alan.richmond)
-* [Python ه¼€هڈ‘ç¤¾هŒ؛](http://python.ctolib.com)
+* [Python 开发社区](http://python.ctolib.com)
 * [r/Python](https://www.reddit.com/r/python)
 * [Trending Python repositories on GitHub today](https://github.com/trending?l=python)
 
